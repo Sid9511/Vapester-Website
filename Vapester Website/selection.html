@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vapester</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="website icon" href="imgs/logo.png">
+</head>
+<body>
+    <header class="header">
+      <a href="index.html" style="padding-top: 1%; width: auto; height: 150px; cursor: default; margin-right: auto;">
+        <img src="imgs/logo1.png" class="logo" alt="Vapester Logo">
+      </a>
+
+    <div class="selection-question">
+        Are you a Smoker?
+    </div>
+    </header>
+
+    
+    <div class="selection-container">
+        <div class="name-box">
+          <textarea class="name-input" placeholder="Your Name" required></textarea>
+    </div>
+        
+        <div class="option-container">
+            <label class="option-box">
+              <input type="radio" name="smoker" value="yes">
+              <span>Yes, I am</span>
+            </label>
+            
+            <label class="option-box">
+              <input type="radio" name="smoker" value="no">
+              <span>No, I am not</span>
+            </label>
+        </div>
+        
+        <br>
+
+        <div class="continue-button"  onclick="validateForm()">
+          <input type="button" value="Continue">
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body> 
+</html>
+

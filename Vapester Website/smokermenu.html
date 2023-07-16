@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vapester</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="website icon" href="imgs/logo.png">
+</head>
+<body>
+    <header class="header" id="smoker-header">
+        <a href="index.html" style="padding-top: 1%; width: auto; height: 150px; cursor: default; margin-right: auto;">
+            <img src="imgs/logo1.png" class="logo" alt="Vapester Logo">
+        </a>
+        <div id="menu-header-text"> Enhance Your Selection: Keep Adding More Items Here!"</div>
+        <a href="cart.html" class="bx bx-cart custom-cart-icon" id="cart-icon"></a>
+
+    </header> 
+
+    
+    <section class="deals">
+    
+        <div class="deals-container">
+            <div class="deals-box">
+                <img src="imgs/menu1.jpg" alt="">
+    
+                <div class="details">
+                    <h4>Torat Nano:</h4>
+                    <p>The Torat Nano is a compact vape device known for its portability and convenience. It features a built-in 800mAh battery, adjustable wattage, and a 2ml e-liquid capacity. With its intuitive firing button and LED indicator, it offers a user-friendly vaping experience. The Torat Nano is perfect for beginners and on-the-go vapers.</p>
+                    <i class="bx bxs-cart-add cart" onclick="addToCart('Torat Nano')"></i>
+    
+                </div>
+            </div>
+
+            <div class="deals-box">
+                <img src="imgs/menu2.jpg" alt="">
+    
+                <div class="details">
+                    <h4>Luxe S:</h4>
+                    <p>The Luxe S vape product offers a sleek and stylish design with a durable aluminum alloy construction. It features a large OLED display for easy navigation and customization, a powerful built-in 2500mAh battery for extended vaping sessions, and a 2ml e-liquid capacity. It also supports multiple coil options for versatile vaping experiences.</p>
+                    <i class="bx bxs-cart-add cart" onclick="addToCart('Luxe S')"></i>
+                </div>
+            </div>
+
+            <div class="deals-box">
+                <img src="imgs/menu3.jpg" alt="">
+    
+                <div class="details">
+                    <h4>Zero:</h4>
+                    <p>The Zero Vape is an innovative vaping product known for its cutting-edge design and user-friendly features. Boasting a sleek, portable design, it offers a refillable pod system and adjustable airflow for customizable vaping experiences. With its long-lasting battery and high-quality performance, Zero Vape delivers a satisfying and convenient vaping solution.</p>
+                    <i class="bx bxs-cart-add cart" onclick="addToCart('Zero')"></i>
+                </div>
+            </div>
+
+            <div class="deals-box">
+                <img src="imgs/menu4.jpg" alt="">
+    
+                <div class="details">
+                    <h4>Reevenger Mini:</h4>
+                    <p>The Revenger Mini vape is a compact and powerful device designed for exceptional vaping experiences. With a built-in 2500mAh battery and a maximum output of 85W, it offers extended usage and substantial vapor production. The advanced OMNI 2.2 chipset ensures precise control and safety, while the NRG SE Mini Tank delivers rich flavor and smooth draws.</p>
+                    <i class="bx bxs-cart-add cart" onclick="addToCart('Reevenger Mini')"></i>
+                </div>
+            </div>
+
+            <div class="deals-box">
+                <img src="imgs/menu5.jpg" alt="">
+    
+                <div class="details">
+                    <h4>Revenger X:</h4>
+                    <p>The Revenger X vape product offers a sleek and ergonomic design with a vibrant 0.96-inch OLED display. It utilizes the advanced OMNI Board 2.2 chipset, providing a maximum output of 220W. With its responsive touch buttons and customizable settings, it delivers a powerful and user-friendly vaping experience.</p>
+                    <i class="bx bxs-cart-add cart" onclick="addToCart('Reevenger X')"></i>
+                </div>
+            </div>
+
+            <div class="deals-box">
+                <img src="imgs/menu6.jpg" alt="">
+    
+                <div class="details">
+                    <h4>Target Mini:</h4>
+                    <p>The Target Mini vape is a compact and portable vaping device designed for convenience and efficiency. It offers an adjustable wattage output for a customizable vaping experience. With a built-in 1400mAh battery and 2ml e-liquid capacity, it delivers long-lasting performance and smooth flavor. Its ergonomic design ensures comfortable handling.</p>
+                    <i class="bx bxs-cart-add cart" onclick="addToCart('Target Mini')"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="continue-button-smoker" onclick="redirectToCart()">
+            <input type="button" value="Continue">
+        </div>
+    </section>
+
+    <script src="js/smoker.js"></script>
+
+</body>
+</html>
