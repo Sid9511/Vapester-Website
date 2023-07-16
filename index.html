@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vapester</title>
+    <link rel="stylesheet" href="css/vape.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="website icon" href="imgs/logo.png">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" style="padding-top: 1%; width: auto; height: 150px; cursor: default; margin-right: auto;">
+            <img src="imgs/logo1.png" class="logo" alt="Vapester Logo">
+        </a>
+          
+          
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#product">Products</a>
+            <a href="#platform">Platform</a>
+            <a href="#community">Community</a>
+            <a href="#contact">Contact</a>
+            <a href="selection.html" class="nav-package">Get Vapester Package</a>
+        </nav>
+    </header>
+  
+    <div class="main-content">
+
+        <section class="home" style="background-image: url('imgs/background.jpg'); background-color: rgba(0, 0, 0, 0.5); background-size: cover;">
+            <div class="slide-container">
+                <div class="outer-container">
+                    <div class="home-content">
+                        <h1> Premium vape experiences delivered, Monthly!!!</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis eveniet at qui architecto voluptates voluptatibus, ducimus dolorem corrupti ipsam iste deserunt officia! Tempora vel expedita obcaecati, aliquid tenetur corporis.</p>
+
+                        <div class="home-btns">
+                            <a href="selection.html" class="btn">Get Vapester Package</a>
+                        </div>   
+                    </div> 
+                </div>
+            </div>        
+        </section>
+
+        <section class="deals">  
+            <h2 class="deals-heading">Products</h2>
+            <div class="deals-container">
+                <div class="deals-box">
+                    <img src="imgs/menu1.jpg" alt="">
+        
+                    <div class="details">
+                        <h4>Torat Nano:</h4>
+                        <p>The Torat Nano is a compact vape device known for its portability and convenience. It features a built-in 800mAh battery, adjustable wattage, and a 2ml e-liquid capacity. With its intuitive firing button and LED indicator, it offers a user-friendly vaping experience. The Torat Nano is perfect for beginners and on-the-go vapers.</p>
+                        <i class="bx bxs-cart-add cart" onclick="addToCart('Torat Nano')"></i>
+        
+                    </div>
+                </div>
+
+                <div class="deals-box">
+                    <img src="imgs/menu8.jpg" alt="">
+        
+                    <div class="details">
+                        <h4>Innokin Go-Z:</h4>
+                        <p>The Innokin Go-Z vape product is a user-friendly and portable vaping device. It features a sleek design with an integrated 1500mAh battery, providing extended usage. The device employs a refillable 2ml pod. </p>
+                            <i class="bx bxs-cart-add cart" onclick="addToCart('Innokin Go-Z')"></i>
+                    </div>
+                </div>
+
+                <div class="deals-box">
+                    <img src="imgs/menu3.jpg" alt="">
+        
+                    <div class="details">
+                        <h4>Zero:</h4>
+                        <p>The Zero Vape is an innovative vaping product known for its cutting-edge design and user-friendly features. Boasting a sleek, portable design, it offers a refillable pod system and adjustable airflow for customizable vaping experiences. With its long-lasting battery and high-quality performance, Zero Vape delivers a satisfying and convenient vaping solution.</p>
+                        <i class="bx bxs-cart-add cart" onclick="addToCart('Zero')"></i>
+                    </div>
+                </div>
+
+                <div class="deals-box">
+                    <img src="imgs/menu10.jpg" alt="">
+        
+                    <div class="details">
+                        <h4>FreeMax Marvos T Kit:</h4>
+                        <p>The FreeMax Marvos T Kit is a cutting-edge vape product featuring a powerful 3000mAh battery, 4.5ml e-liquid capacity, and a user-friendly touchscreen display. It supports multiple coil options, offers adjustable airflow, and boasts rapid charging capabilities for a premium vaping experience.</p>
+                            <i class="bx bxs-cart-add cart" onclick="addToCart('FreeMax Marvos T Kit')"></i>
+                    </div>
+                </div>
+
+                <div class="deals-box">
+                    <img src="imgs/menu5.jpg" alt="">
+        
+                    <div class="details">
+                        <h4>Revenger X:</h4>
+                        <p>The Revenger X vape product offers a sleek and ergonomic design with a vibrant 0.96-inch OLED display. It utilizes the advanced OMNI Board 2.2 chipset, providing a maximum output of 220W. With its responsive touch buttons and customizable settings, it delivers a powerful and user-friendly vaping experience.</p>
+                        <i class="bx bxs-cart-add cart" onclick="addToCart('Reevenger X')"></i>
+                    </div>
+                </div>
+
+                <div class="deals-box">
+                    <img src="imgs/menu12.jpg" alt="">
+        
+                    <div class="details">
+                        <h4>Innokin Zlide Tube Pen:</h4>
+                        <p>The Innokin Zlide Tube Pen vape offers a sleek design with a built-in 3000mAh battery for extended use. It features a 4ml e-liquid capacity, adjustable airflow, and compatibility with the popular Z-Coil series, providing a satisfying vaping experience with ease of use.</p>
+                            <i class="bx bxs-cart-add cart" onclick="addToCart('Innokin Zlide Tube Pen')"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="continue-button-smoker" onclick="redirectToCart()">
+                <input type="button" value="Continue">
+            </div>
+        </section>
+
+        
+        
+        <!--Testimonial-->
+        <section class="community">
+            <div class="testimonial-container">
+            <h2 class="community-heading">Community</h2>
+
+            <div class="testimonial-wrapper">
+                <div class="testimonial-box mySwiper">
+                    <div class="testimonial-content swiper-wrapper">
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="imgs/testimonial1.jpg" alt="">
+                            <h3>Jack Adam</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea libero, neque numquam
+                                eligendi natus id accusamus qui molestias ipsa quis! Hic aspernatur aperiam, natus
+                                recusandae eos reiciendis ab quae.</p>
+                        </div>
+
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="imgs/testimonial2.jpg" alt="">
+                            <h3>James Harrison</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea libero, neque numquam
+                                eligendi natus id accusamus qui molestias ipsa quis! Hic aspernatur aperiam, natus
+                                recusandae eos reiciendis ab quae.</p>
+                        </div>
+
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="imgs/testimonial3.jpg" alt="">
+                            <h3>Julian Gray</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea libero, neque numquam
+                                eligendi natus id accusamus qui molestias ipsa quis! Hic aspernatur aperiam, natus
+                                recusandae eos reiciendis ab quae.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <section class="contact" id="contact">
+            <h2 class="contact-heading">Contact Us!</h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Adress">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="submit-btn">
+            </form>
+        </section>
+    </div>
+        <!--Footer Design-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Vapester | All Rights Reserved</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+
+
+        <!--Swiper js-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!--Scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--Typed js-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script src="js/vape.js"></script>
+     
+</body>
+</html> 
